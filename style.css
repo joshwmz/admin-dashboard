@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
+
+.icon {
+    height: 30px;
+    width: auto;
+}
+
+.side-bar {
+    background-color: #189ef2;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.logo {
+    height: auto;
+    width: 400px;
+}
+
+.side-bar .icon {
+    filter: invert(82%) sepia(87%) saturate(0%) hue-rotate(342deg) brightness(112%) contrast(114%);;
+}
+
+.side-bar .side-content {
+    margin: 60px 0px;
+}
+
+.side-bar .side-content li {
+    display: flex;
+    margin: 20px;
+}
+
+.side-bar .side-content p {
+    margin-left: 25px;
+}
+
+.search-bar {
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    height: 30px;
+    width: auto;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 60px;
+    width: auto;
+}
+
+.header > .profile-pic {
+    height: 90px;
+    width: auto;
+}
+
+.header > .header-text > .hi {
+    font-size: 1rem;
+}
+
+.header > .header-text > .handle {
+    font-size: 1.8rem;
+}
+
+.header .header-content {
+    background-color: #189ef2;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    background-color: rgb(230, 230, 230);
+}
+
+.content .text-content {
+    color: rgb(100, 100, 100);
+}
+
+.top-bar > .name,
+.header,
+.title,
+.section-header {
+    font-weight: 600;
+}
+
+.card {
+    background-color: white;
+    border-left: 8px solid #fbed0a;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.items-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.announcements .items {
+    padding: 15px 5px;
+    border-bottom: 2px solid rgb(230, 230, 230);
+}
+
+.announcements > .items-container {
+    font-size: 1rem;
+}
